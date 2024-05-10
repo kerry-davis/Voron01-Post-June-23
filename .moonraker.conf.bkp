@@ -39,14 +39,6 @@ off_when_shutdown_delay = 0
 [power Enclosure Light]
 on_when_job_queued = True
 type = gpio
-pin = !gpiochip0/gpio18
-off_when_shutdown = True
-restart_klipper_when_powered = False
-initial_state = on
-
-[power Hotend Fan]
-on_when_job_queued = True
-type = gpio
 pin = !gpiochip0/gpio23
 off_when_shutdown = True
 restart_klipper_when_powered = False
